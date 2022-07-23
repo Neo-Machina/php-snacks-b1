@@ -13,14 +13,18 @@
         $randomNumbersArray = [];
     ?>
 
+    <!-- Finchè la lunghezza dell'array è < 15 -->
     <?php while(count($randomNumbersArray) < 15) {?>
+        <!-- Variabile numero random compreso tra 1 e 100 -->
         <?php $randomNumber = rand(1, 100); ?>
         
+        <!-- Se il numero non è già compreso nell'array allora lo pusho -->
         <?php if(!in_array($randomNumber, $randomNumbersArray)) {
             array_push($randomNumbersArray, $randomNumber); ?>
 
             <ul>
                 <li>
+                    <!-- Stampo il numero casuale -->
                     NUMBER: <?php echo $randomNumber ?>
                 </li>
             </ul>
