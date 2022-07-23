@@ -1,0 +1,25 @@
+/* COMMON */
+ul {
+    list-style-type: none;
+}
+
+.d-flex {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* boxes */
+.grey_box {
+    background-color: lightgrey;
+    width: 300px;
+    height: 150px;
+}
+
+.green_box {
+    background-color: lightgreen;
+    width: 300px;
+    height: 150px;
+}
+
