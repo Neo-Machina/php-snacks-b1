@@ -16,7 +16,7 @@ Se tutto è ok stampare “Accesso riuscito”, altrimenti “Accesso negato” 
     <!-- Prendo i query parameters dall'url  -->
     <?php 
         $name = $_GET['name'];
-        $email = $_GET['email'];
+        $email = $_GET['mail'];
         $age = $_GET['age'];
     ?>
 
