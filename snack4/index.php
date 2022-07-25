@@ -18,7 +18,9 @@ Prendere il paragrafo e suddividerlo in tanti paragrafi. Ogni punto un nuovo par
     <?php for($i = 0; $i < count($paragraphs); $i++) {?>
         <?php $singleParagraph = $paragraphs[$i] ?>
 
-        <p> <?php echo $singleParagraph ?> </p>
+        <?php if(!empty($singleParagraph)) {?>
+            <p> <?php echo $singleParagraph ?> </p>
+        <?php } ?>
     <?php }?>
     
 </body>
